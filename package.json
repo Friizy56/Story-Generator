@@ -1,7 +1,7 @@
 {
   "name": "practice-story-generator",
   "version": "1.0.0",
-  "description": "This is a story generator project with no AI. Languages used are HTML5,CSS and Javascript",
+  "description": "This is a story generator using Gemini API",
   "main": "script.js",
   "type": "module",
   "scripts": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Friizy56/Story-Generator#readme",
   "dependencies": {
     "@google/generative-ai": "^0.14.1",
-    "cors": "^2.8.5",
-    "express": "^4.21.2"
+    // "cors": "^2.8.5",
+    // "express": "^4.21.2"
   }
 }
