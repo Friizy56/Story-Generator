@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
 app.use(express.static(__dirname));
 
 // Google AI setup
-const genAI = new GoogleGenerativeAI(process.env.API_key);
+const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 
 app.post("/api/generate-story", async (req, res) => {
   const prompt = req.body.prompt || "Write a fun short story for kids.";
