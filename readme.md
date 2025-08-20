@@ -1,5 +1,5 @@
 # Story-Generator
-This is a story generator without the usage of AI.
-Tools used are HTML5, CSS and Javascript
+This is a story generator using the Gemini API
+Tools used are HTML5, CSS, Javascript and Node.js
 
 -Author Angan
