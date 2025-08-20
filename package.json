@@ -1,0 +1,27 @@
+{
+  "name": "practice-story-generator",
+  "version": "1.0.0",
+  "description": "This is a story generator project with no AI. Languages used are HTML5,CSS and Javascript",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Friizy56/Story-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Friizy56/Story-Generator/issues"
+  },
+  "homepage": "https://github.com/Friizy56/Story-Generator#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.14.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
